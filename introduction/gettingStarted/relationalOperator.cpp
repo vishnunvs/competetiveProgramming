@@ -6,15 +6,15 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
 
-    int n;
+    int N;
     scanf("%d",&n);
-    int a[n][2];
+    int a[N][2];
 
-    for(int i=0; i<n; i++)
+    while(N--)
     {
         scanf("%d %d",&(a[i][0]),&(a[i][1]));
     }
-    for(int i=0; i<n; i++)
+    while(N--)
     {
         if(abs(a[i][0])<abs(a[i][1]))
         {
